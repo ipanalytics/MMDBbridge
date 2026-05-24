@@ -1,0 +1,25 @@
+network:
+  column: cidr
+
+metadata:
+  database_type: custom-ip-intel
+  description: Custom IP intelligence dataset
+  ip_version: 6
+  record_size: 28
+  build_epoch: 1
+  include_reserved_networks: true
+
+fields:
+  asn:
+    column: asn
+    type: uint32
+  is_vpn:
+    column: is_vpn
+    type: bool
+  geo.country.iso_code:
+    column: country
+    type: string
+  tags:
+    column: tags
+    type: string_array
+    split: "|"
