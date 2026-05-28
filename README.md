@@ -3,7 +3,7 @@
 MMDBridge is a schema-driven CSV <-> MMDB bridge for custom IP intelligence datasets. It converts flat tables of IP/CIDR ranges into typed MaxMind DB files, and exports MMDB contents back into stable CSV for review, diffing, enrichment, and database import workflows.
 
 <p align="center">
-  <img src="./site/banner.svg" alt="MMDBridge project banner" width="100%">
+  <img src="./site/banner.png" alt="MMDBridge project banner" width="100%">
 </p>
 
 <p align="center">
